@@ -1,0 +1,26 @@
+list contenant 4 objet de type cup
+valeur 1 objet en haut à gauche
+valeur 2 objet en haut à droite
+valeur 3 objet en bas à gauche
+valeur 4 objet en bas à droite
+
+cup
+paramétres=draw rect
+size=taille rect
+velocity=vitesse de déplacement
+coo=[x,y]
+ball=Boolean balle ou nom
+
+
+
+init
+on initialise 4 cup
+on affiche les cup aux bonnes positions 1 pos 1 exct
+on appuie sur r pour lancer la suite
+on choisi une cup au hasard qui possédera la balle
+on montre la balle 2 sec sur la cup puis on fait disparaitre la balle
+puis on échange les positions des cup entre elles avec un mouvement de translation(on choisi des fonctions aux hasard qui échange des cups au hasard entre elles)
+au bout de 10 fonctions choisi aléatoirement on stoppe
+puis le joueur choisi un rect qui devrait contenir la balle
+il clique dessus et on affiche la balle sur le rect qui la contenait si le joeur a cliqué sur le bon +1 point de score
+(les points incrémente la velocity ce qui accélere le jeu)
